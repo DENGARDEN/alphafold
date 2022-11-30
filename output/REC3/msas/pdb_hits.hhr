@@ -1,0 +1,494 @@
+Query         REC3_SpCas9_52962 
+Match_columns 216
+No_of_seqs    119 out of 780
+Neff          5.63672
+Searched_HMMs 80799
+Date          Thu Nov 17 16:10:52 2022
+Command       /usr/bin/hhsearch -i /tmp/tmp_6z4p0tv/query.a3m -o /tmp/tmp_6z4p0tv/output.hhr -maxseq 1000000 -d /mnt/pdb70_database_path/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5B2R_B CRISPR-associated endon 100.0 5.2E-39 6.5E-44  335.3   0.0  213    1-213   502-714 (1372)
+  2 5Y36_A CRISPR-associated endon 100.0 1.1E-38 1.4E-43  332.7   0.0  213    1-213   498-710 (1368)
+  3 5B2T_B CRISPR-associated endon 100.0 1.4E-38 1.8E-43  331.9   0.0  213    1-213   502-714 (1372)
+  4 5AXW_A CRISPR-associated endon  99.8 3.5E-25 4.3E-30  227.9   0.0  176    1-182   239-416 (1056)
+  5 5CZZ_A CRISPR-associated endon  99.8 3.5E-25 4.3E-30  227.9   0.0  176    1-182   239-416 (1056)
+  6 6JDV_A CRISPR-associated endon  99.6 1.3E-19 1.6E-24  187.6   0.0  188    1-195   258-455 (1083)
+  7 6KC8_A CRISPR-associated endon  99.6 1.5E-19 1.9E-24  187.1   0.0  188    1-195   258-455 (1083)
+  8 6JE4_K CRISPR-associated endon  99.6 9.6E-19 1.2E-23  181.2   0.0  188    1-195   258-455 (1083)
+  9 5X2G_A CRISPR-associated endon  99.5 1.9E-18 2.3E-23  175.1   0.0  178    1-195   251-433 (835)
+ 10 5X2H_A CRISPR-associated endon  99.5 1.9E-18 2.3E-23  175.1   0.0  178    1-195   251-433 (835)
+ 11 6RJA_C AcrIIA6, CRISPR-associa  99.5 9.5E-18 1.2E-22  174.5   0.0  170    1-178   258-440 (1121)
+ 12 6RJ9_C AcrIIA6, CRISPR-associa  99.5 2.1E-17 2.5E-22  172.0   0.0  170    1-178   258-440 (1121)
+ 13 6JOO_A CRISPR-associated prote  99.3 2.7E-15 3.3E-20  154.1   0.0  189    1-194   250-455 (927)
+ 14 4OGE_A HNH endonuclease domain  99.1 5.6E-14 6.9E-19  146.7   0.0  176    7-192   269-459 (1101)
+
+No 1
+>5B2R_B CRISPR-associated endonuclease Cas9/RNA/DNA Complex; CRISPR-Cas9, genome engineering, HYDROLASE-RNA-DNA complex; HET: EDO, K; 2.0A {Streptococcus pyogenes serotype M1}
+Probab=100.00  E-value=5.2e-39  Score=335.29  Aligned_cols=213  Identities=100%  Similarity=1.416  Sum_probs=181.6  Template_Neff=6.400
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDS   80 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~~~~~   80 (216)
+                      +|||+++|+||||+||+||+|+|||+||||||.+.+++++++|+.++++.|++.|+.++++||+++|++.++.....|.+
+T Consensus       502 ~ctYl~~E~rlPK~Sllyq~F~vLneLNnlri~~~~~~~~~~Lt~e~Kq~I~~~Lf~~~k~vt~k~l~k~~l~~~~~~~~  581 (1372)
+T 5B2R_B          502 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIEEFDS  581 (1372)
+T ss_dssp             BCSSSTTSBCCBTTCHHHHHHHHHHHHTTCEEECTTCSSCEECCHHHHHHHCCCCCTTCSSCBHHHCCCCCCCTTTCCSC
+T ss_pred             CCCCCCCCccchhcCHHHHHHHHHHHHhCeEEecCCCCCCccCCHHHHHHHHHHHHhcCCCCCHHHHHHHhccchHHcCC
+Confidence            59999999999999999999999999999999986544445799999999999998855689999999756654455655
+
+
+Q REC3_SpCas9_52   81 VEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYT  160 (216)
+Q Consensus        81 ~~itG~d~~f~ssL~sY~dfk~i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik~l~~l~y~  160 (216)
+                      ..++|.+..++++|++|+++++++++|..++.+.+.+++|+|++++|.|+|++.+.++|.++...+++++++.+....++
+T Consensus       582 ~~i~G~~~~~~~~l~sy~~~kkil~~~~~~~~~~~~~~~e~Ii~~lt~f~d~~~l~~~L~~~~~~l~~~~~~~l~~~~~~  661 (1372)
+T 5B2R_B          582 VEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYT  661 (1372)
+T ss_dssp             CEEESCCSBCSCCCHHHHHHHHHHCCHHHHHCGGGHHHHHHHHHHHHHCCCHHHHHHHHGGGGGGSCHHHHHHHHTCCCC
+T ss_pred             ccccCccccccccchhHHHHHHHHhccccCCcccCHHHHHHHHHHHhhCCCHHHHHHHHHHHhccCCHHHHHHHhccCCC
+Confidence            67778776689999999999999887655665557778999999999999999999999865445677788788888999
+
+
+Q REC3_SpCas9_52  161 GWGRLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK  213 (216)
+Q Consensus       161 GWGRLSkklL~gi~~~~~g~~i~~il~~~~~tn~NfMqii~d~~~~F~~~I~k  213 (216)
+                      |||+||.+||+.|+|.+.|.+|+++|+.+|+++.|+|+++++..++|++.+++
+T Consensus       662 gwgrLS~KaL~~i~~~~~g~~i~~~l~~~g~~~~n~mei~~~~~~~~~~~i~~  714 (1372)
+T 5B2R_B          662 GWGRLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK  714 (1372)
+T ss_dssp             CBCSSCHHHHHTSCCTTTCCCHHHHHHCCTTTCCCHHHHHHCTTSSHHHHHHH
+T ss_pred             CchHHcHHHHHhhchhcCCCcHHHHHHhCCCCChhHHHHHhhcCCchHHHHHH
+Confidence            99999999999999998899999999999999999999998876666655544
+
+
+No 2
+>5Y36_A CRISPR-associated endonuclease Cas9/Csn1/RNA Complex; Genome editting, CRIPSR-Cas9, DNA cleavage; 5.2A {Streptococcus pyogenes serotype M1}
+Probab=100.00  E-value=1.1e-38  Score=332.67  Aligned_cols=213  Identities=100%  Similarity=1.438  Sum_probs=176.3  Template_Neff=6.400
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDS   80 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~~~~~   80 (216)
+                      +|||+++|+||||+||+||+|+|||+||||||.+++++++++|+.++++.|++.|+..+++||+++|++.++.....+.+
+T Consensus       498 kctyl~~E~rlPK~Sllyq~F~vLneLNnlri~~~~~~~~~~Lt~e~Kq~I~~~Lf~~~k~vt~k~i~k~~l~~~~~~~~  577 (1368)
+T 5Y36_A          498 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDS  577 (1368)
+T ss_dssp             BCSSSTTCBCCBTTCHHHHHHHHHHHHHTCEEECSSCCSCEECCHHHHHHHCCCCCTTSSEEEHHHCCCCCHHHTSCCSS
+T ss_pred             CCCCCCCCccchhcCHHHHHHHHHHHHhCeEEecCCCCCCccCCHHHHHHHHHHHHhcCCCCCHHHHHHHHhhhcCCCCc
+Confidence            69999999999999999999999999999999986444445799999999999998755689999999745543333333
+
+
+Q REC3_SpCas9_52   81 VEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYT  160 (216)
+Q Consensus        81 ~~itG~d~~f~ssL~sY~dfk~i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik~l~~l~y~  160 (216)
+                      ..++|....+++++++|++|+++++....++.+.+.+++|+||+++|.|+|++.+.++|.++...+++++++.+....++
+T Consensus       578 ~~i~G~~~~f~~~l~sy~~l~kil~~~~~~d~~~~~~~~e~Ii~~lt~f~d~~~l~~~L~~~~~~l~~~~i~~l~~~~~~  657 (1368)
+T 5Y36_A          578 VEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYT  657 (1368)
+T ss_dssp             CEEESSCSEEEEECSHHHHHHHHHCCSTTSSSTTHHHHHHHHHHHHHHCCCHHHHHHHHHHTTTTCCHHHHHHHCSCCCC
+T ss_pred             cccCCcccccccccccHHHHHHHhcccccCCCccCHHHHHHHHHHHhcCCCHHHHHHHHHHHhccCCHHHHHHHhccCCC
+Confidence            56777666688999999999998873223544456778899999999999999999999765445677777778778899
+
+
+Q REC3_SpCas9_52  161 GWGRLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK  213 (216)
+Q Consensus       161 GWGRLSkklL~gi~~~~~g~~i~~il~~~~~tn~NfMqii~d~~~~F~~~I~k  213 (216)
+                      |||+||.+||++|+|.+.|.+++++|+.+|+++.|+|+++++..++|++.+++
+T Consensus       658 gwgrLS~KaL~~i~~~~~g~~i~~~l~~~g~~~~n~mei~~~~~~~~~~~i~~  710 (1368)
+T 5Y36_A          658 GWGRLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK  710 (1368)
+T ss_dssp             CBCSCCHCCCCCSCCTTTCCCHHHHHHSCSSCCCCHHHHHHCTTSTTHHHHHH
+T ss_pred             CchhHCHHHHHhhchhcCCCcHHHHHHhCCCCChhHHHHHhhcCCchHHHHHH
+Confidence            99999999999999998899999999999999999999998875665555543
+
+
+No 3
+>5B2T_B CRISPR-associated endonuclease Cas9/RNA Complex; CRISPR-Cas9, genome engineering, HYDROLASE-RNA-DNA complex; HET: K, EDO; 2.2A {Streptococcus pyogenes serotype M1}
+Probab=100.00  E-value=1.4e-38  Score=331.87  Aligned_cols=213  Identities=100%  Similarity=1.416  Sum_probs=181.5  Template_Neff=6.300
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDS   80 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~~~~~   80 (216)
+                      +|||+++|+||||+||+||+|+|||+||||||.+.+++++++|+.++|+.|++.|+..+++||+++|++.++.....|.+
+T Consensus       502 ~ctyl~~E~rlPK~Sllyq~F~vLneLNnlri~~~~~~~~~~Lt~e~Kq~I~~~Lf~~~k~vt~k~l~k~~l~~~~~~~~  581 (1372)
+T 5B2T_B          502 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIEEFDS  581 (1372)
+T ss_dssp             BCSSSTTSBCCBTTCHHHHHHHHHHHHTTCEEECSSCSSCEECCHHHHHHHCCCCCTTCSSCBHHHCCCCCCCTTTCCSC
+T ss_pred             CCCCCCCCccchhcCHHHHHHHHHHHHhCeEEecCCCCCCccCCHHHHHHHHHHHHhcCCCCCHHHHHHHhccchHHcCC
+Confidence            69999999999999999999999999999999986544445799999999999998855689999999756654455655
+
+
+Q REC3_SpCas9_52   81 VEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYT  160 (216)
+Q Consensus        81 ~~itG~d~~f~ssL~sY~dfk~i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik~l~~l~y~  160 (216)
+                      ..++|.+..++++|++|++++++++.|..++.+.+.+++|+|++++|.|+|++.+.++|.++...+++++++.+....|+
+T Consensus       582 ~~i~G~~~~~~~~l~sy~~~kkil~~~~~~~~~~~~~~~e~Ii~~lt~f~d~~~l~~~L~~~~~~l~~~~i~~l~~~~~~  661 (1372)
+T 5B2T_B          582 VEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRRYT  661 (1372)
+T ss_dssp             CEEESCCSBCSCCCHHHHHHHHHHCCHHHHHCGGGHHHHHHHHHHHHHCCCHHHHHHHTGGGTTTSCHHHHHHHTTCCCC
+T ss_pred             ccccCccccccccchhHHHHHHHHhccccCCcccCHHHHHHHHHHHhhCCCHHHHHHHHHHHhccCCHHHHHHHhccCCC
+Confidence            67778776689999999999999887655665557788999999999999999999999865445677778788888999
+
+
+Q REC3_SpCas9_52  161 GWGRLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK  213 (216)
+Q Consensus       161 GWGRLSkklL~gi~~~~~g~~i~~il~~~~~tn~NfMqii~d~~~~F~~~I~k  213 (216)
+                      |||+||++||++|+|.+.|.+++++|+.+|+++.|+||++++..++|++.+++
+T Consensus       662 gwgrLS~KaL~~i~~~~~g~~i~~al~~~g~~~~n~mqi~~~~~~~~~~~i~~  714 (1372)
+T 5B2T_B          662 GWGRLSRKLINGIRDKQSGKTILDFLKSDGFANRNFMQLIHDDSLTFKEDIQK  714 (1372)
+T ss_dssp             CBCSSCHHHHHTSCCTTTCCCHHHHHHCCTTTCCCHHHHTTCTTSSHHHHHHH
+T ss_pred             CchHHcHHHHHhhchhcCCCcHHHHHHhCCCCChhHHHHHhhcCCchHHHHHH
+Confidence            99999999999999998899999999999999999999998876666655544
+
+
+No 4
+>5AXW_A CRISPR-associated endonuclease Cas9/RNA/DNA Complex; CRISPR-Cas9, genome engineering, HYDROLASE-RNA-DNA complex; 2.7A {Staphylococcus aureus subsp. aureus}
+Probab=99.83  E-value=3.5e-25  Score=227.94  Aligned_cols=176  Identities=23%  Similarity=0.298  Sum_probs=135.0  Template_Neff=7.400
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDS   80 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~~~~~   80 (216)
+                      +|||+|+|+||||+||+||+|++||+||||||.+.+.   ++||.++++.|++.++.+++++|+++|++.|........+
+T Consensus       239 ~Ct~~~~e~rapk~s~~~q~f~~l~~Lnnlri~~~~~---~~L~~e~k~~i~~~l~~~~~~~t~~~i~k~L~~~~~~~~~  315 (1056)
+T 5AXW_A          239 HCTYFPEELRSVKYAYNADLYNALNDLNNLVITRDEN---EKLEYYEKFQIIENVFKQKKKPTLKQIAKEILVNEEDIKG  315 (1056)
+T ss_dssp             BCSSCTTSBCCBTTCHHHHHHHHHHHHHTCEECSSSC---SSCCHHHHHHHCCCCCTTCSSCCHHHHHHHHTSCGGGEEC
+T ss_pred             cCCCCCCCCCchhhCHHHHHHHHHHHHhCeEeccCCC---ccCCHHHHHHHHHHHHhcCCCCCHHHHHHHhcCChhHhcC
+Confidence            5999999999999999999999999999999987531   4799999999999988756689999999866432221112
+
+
+Q REC3_SpCas9_52   81 VEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRR-Y  159 (216)
+Q Consensus        81 ~~itG~d~~f~ssL~sY~dfk~i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik~l~~l~-y  159 (216)
+                      ..+.+....+++++++|+.++++++. ..+  +.+.+++|+|+++++.++|++.+.++|.+....+++++++.+.... +
+T Consensus       316 ~~~~~~~~~~~~~~~~~~~l~k~l~~-~~~--~~~~~~~d~i~~~lt~~~d~~~~~~~L~~~~~~l~~e~i~~l~~~~~~  392 (1056)
+T 5AXW_A          316 YRVTSTGKPEFTNLKVYHDIKDITAR-KEI--IENAELLDQIAKILTIYQSSEDIQEELTNLNSELTQEEIEQISNLKGY  392 (1056)
+T ss_dssp             CCBCTTSCBCCCCCHHHHHHHHHCCC-HHH--HTCHHHHHHHHHHHHHCCSHHHHHHHHHTTCCSCCHHHHHHHTTCCCC
+T ss_pred             ceecCCCCcccccCHHHHHHHHHhcc-hhh--hcCHHHHHHHHHHHhhcCCcHHHHHHHHhhccCCCHHHHHHHhcCCCC
+Confidence            22222222367899999999888763 211  1355678999999999999888888887533336666666666654 6
+
+
+Q REC3_SpCas9_52  160 TGWGRLSRKLINGIRDKQS-GKTI  182 (216)
+Q Consensus       160 ~GWGRLSkklL~gi~~~~~-g~~i  182 (216)
+                      +|||+||.+||++|+|.|. |..+
+T Consensus       393 ~g~~~lS~kal~~ilp~l~~~~~~  416 (1056)
+T 5AXW_A          393 TGTHNLSLKAINLILDELWHTNDN  416 (1056)
+T ss_dssp             CSBCSSCHHHHHHTHHHHHHSCCC
+T ss_pred             CCchHHcHHHHHHHHHHHHcCCHh
+Confidence            9999999999999999975 5443
+
+
+No 5
+>5CZZ_A CRISPR-associated endonuclease Cas9/RNA/DNA Complex; CRISPR-Cas9, genome engineering, HYDROLASE-RNA-DNA complex; 2.6A {Staphylococcus aureus subsp. aureus}
+Probab=99.83  E-value=3.5e-25  Score=227.94  Aligned_cols=176  Identities=23%  Similarity=0.298  Sum_probs=135.0  Template_Neff=7.400
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIECFDS   80 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~~~~~   80 (216)
+                      +|||+|+|+||||+||+||+|++||+||||||.+.+.   ++||.++++.|++.++.+++++|+++|++.|........+
+T Consensus       239 ~Ct~~~~e~rapk~s~~~q~f~~l~~Lnnlri~~~~~---~~L~~e~k~~i~~~l~~~~~~~t~~~i~k~L~~~~~~~~~  315 (1056)
+T 5CZZ_A          239 HCTYFPEELRSVKYAYNADLYNALNDLNNLVITRDEN---EKLEYYEKFQIIENVFKQKKKPTLKQIAKEILVNEEDIKG  315 (1056)
+T ss_dssp             BCSSCTTSBCCBTTCHHHHHHHHHHHHHTCEECSSSC---SSCCHHHHHHHCCCCCTTCSSCCHHHHHHHHTSCGGGEEC
+T ss_pred             cCCCCCCCCCchhhCHHHHHHHHHHHHhCeEeccCCC---ccCCHHHHHHHHHHHHhcCCCCCHHHHHHHhcCChhHhcC
+Confidence            5999999999999999999999999999999987531   4799999999999988756689999999866432221112
+
+
+Q REC3_SpCas9_52   81 VEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKRRR-Y  159 (216)
+Q Consensus        81 ~~itG~d~~f~ssL~sY~dfk~i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik~l~~l~-y  159 (216)
+                      ..+.+....+++++++|+.++++++. ..+  +.+.+++|+|+++++.++|++.+.++|.+....+++++++.+.... +
+T Consensus       316 ~~~~~~~~~~~~~~~~~~~l~k~l~~-~~~--~~~~~~~d~i~~~lt~~~d~~~~~~~L~~~~~~l~~e~i~~l~~~~~~  392 (1056)
+T 5CZZ_A          316 YRVTSTGKPEFTNLKVYHDIKDITAR-KEI--IENAELLDQIAKILTIYQSSEDIQEELTNLNSELTQEEIEQISNLKGY  392 (1056)
+T ss_dssp             CCBCSSSCBCCCCCHHHHHHHTTCCC-HHH--HTCHHHHHHHHHHHHHCCSHHHHHHHHHTTCCSCCHHHHHHHTTCCCC
+T ss_pred             ceecCCCCcccccCHHHHHHHHHhcc-hhh--hcCHHHHHHHHHHHhhcCCcHHHHHHHHhhccCCCHHHHHHHhcCCCC
+Confidence            22222222367899999999888763 211  1355678999999999999888888887533336666666666654 6
+
+
+Q REC3_SpCas9_52  160 TGWGRLSRKLINGIRDKQS-GKTI  182 (216)
+Q Consensus       160 ~GWGRLSkklL~gi~~~~~-g~~i  182 (216)
+                      +|||+||.+||++|+|.|. |..+
+T Consensus       393 ~g~~~lS~kal~~ilp~l~~~~~~  416 (1056)
+T 5CZZ_A          393 TGTHNLSLKAINLILDELWHTNDN  416 (1056)
+T ss_dssp             CSBCSSCHHHHHHHHHHHHHSCCC
+T ss_pred             CCchHHcHHHHHHHHHHHHcCCHh
+Confidence            9999999999999999975 5443
+
+
+No 6
+>6JDV_A CRISPR-associated endonuclease Cas9/RNA/DNA Complex; CRISPR-Cas9, NmeCas9, Nme1Cas9, hydrolase, ternary; 3.1A {Neisseria meningitidis serogroup C (strain 8013)}
+Probab=99.62  E-value=1.3e-19  Score=187.58  Aligned_cols=188  Identities=16%  Similarity=0.229  Sum_probs=140.9  Template_Neff=7.400
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIE-CFD   79 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~-~~~   79 (216)
+                      +|||+|+|+||||+||+||+|++||+||||||.+.+  +.++||.++++.|++.++. ++++||++|++.|..... .|.
+T Consensus       258 kCt~~~~e~Rapk~s~~~q~f~il~~Lnnlri~~~~--~~~~Lt~eek~~i~~~~~~-k~~~t~~~i~k~L~~~~~~~f~  334 (1083)
+T 6JDV_A          258 HCTFEPAEPKAAKNTYTAERFIWLTKLNNLRILEQG--SERPLTDTERATLMDEPYR-KSKLTYAQARKLLGLEDTAFFK  334 (1083)
+T ss_dssp             BCSSCTTSBCCBSSSHHHHHHHHHHHHHTCEEECSS--CEEECCHHHHHHHHTHHHH-SSCCCHHHHHHHTCCCSSCEES
+T ss_pred             cCcCCCCCCCcccCCHHHHHHHHHHHHhCeEEcCCC--CcccCCHHHHHHHhhHHhh-cCCCCHHHHHHHcCCCCcceee
+Confidence            699999999999999999999999999999998763  1257999999999999876 558999999986554322 243
+
+
+Q REC3_SpCas9_52   80 SVEIS--GVEDRFNASLGTYHDLLKIIKDKDFLD-N----EENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMK  152 (216)
+Q Consensus        80 ~~~it--G~d~~f~ssL~sY~dfk~i~~~~~~ld-~----~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik  152 (216)
+                      +....  +.....+.++++|+.++++++... +. .    ..+.+.+|+|+++|+.++|++.+.++|.+.   +++++++
+T Consensus       335 ~~~~~~~~~~~~~~~~l~~~~~~~~~l~~~~-~~~~~~~~~~~~~~~d~i~~~lt~~~d~~~l~~~L~~~---l~~e~~~  410 (1083)
+T 6JDV_A          335 GLRYGKDNAEASTLMEMKAYHAISRALEKEG-LKDKKSPLNLSPELQDEIGTAFSLFKTDEDITGRLKDR---IQPEILE  410 (1083)
+T ss_dssp             SCCCSSSCGGGSCSCCCHHHHHHHHHHHHTT-SSCSSSCCCSCHHHHHHHHHHHHHCCSHHHHHHHHTTT---SCHHHHH
+T ss_pred             eeccCCCchhhhhhhhhHHHHHHHHHHHHcC-CcCCCCccCCCHHHHHHHHHHHhcCCChHHHHHHHHHc---CCHHHHH
+Confidence            32111  111113457888999988776321 11 0    024567799999999999998888888643   3444454
+
+
+Q REC3_SpCas9_52  153 QLKR-RRYTGWGRLSRKLINGIRDKQS-GKTILDFLKSDGFANRN  195 (216)
+Q Consensus       153 ~l~~-l~y~GWGRLSkklL~gi~~~~~-g~~i~~il~~~~~tn~N  195 (216)
+                      .+.. ..++|||+||.+||++|+|.|. |..|.+|+...++.+.+
+T Consensus       411 ~l~~~~~~~g~~~lS~kal~~ilp~l~~g~~y~~a~~~~~~~~~~  455 (1083)
+T 6JDV_A          411 ALLKHISFDKFVQISLKALRRIVPLMEQGKRYDEACAEIYGDHYG  455 (1083)
+T ss_dssp             HHHHHCCCCCBCSSCHHHHHHHHHHHHTTCCHHHHHHHHHSCTTC
+T ss_pred             HHHhcCCccccHHHHHHHHHHHHHHHHcCCchHHHHHHHhhcccc
+Confidence            5544 6789999999999999999975 99999999877655544
+
+
+No 7
+>6KC8_A CRISPR-associated endonuclease Cas9/RNA/DNA Complex; CRISPR-Cas9, NmeCas9, Nme1Cas9, hydrolase, ternary; 2.9A {Neisseria meningitidis 8013}
+Probab=99.61  E-value=1.5e-19  Score=187.10  Aligned_cols=188  Identities=16%  Similarity=0.227  Sum_probs=140.7  Template_Neff=7.400
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIE-CFD   79 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~-~~~   79 (216)
+                      +|||+|+|+||||+||+||+|++||+||||||.+.+.  .++||.++++.|++.++. ++++|+++|++.|..... .|.
+T Consensus       258 kCt~~~~e~Rapk~s~~~q~f~il~~Lnnlri~~~~~--~~~Lt~eek~~i~~~~~~-k~~~t~~~i~k~L~~~~~~~f~  334 (1083)
+T 6KC8_A          258 HCTFEPAEPKAAKNTYTAERFIWLTKLNNLRILEQGS--ERPLTDTERATLMDEPYR-KSKLTYAQARKLLGLEDTAFFK  334 (1083)
+T ss_dssp             BCSSSTTSBCCBTTSHHHHHHHHHHHHHHCEEECSSC--EEECCHHHHHHHTTHHHH-SSCEEHHHHHHHTCCCSSCEET
+T ss_pred             cCcCCCCCCCcccCCHHHHHHHHHHHHhCeEEcCCCC--cccCCHHHHHHHhhHHhh-cCCCCHHHHHHHcCCCCcceee
+Confidence            6999999999999999999999999999999987632  257999999999998876 558999999986554322 243
+
+
+Q REC3_SpCas9_52   80 SVEIS--GVEDRFNASLGTYHDLLKIIKDKDFLD-N----EENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMK  152 (216)
+Q Consensus        80 ~~~it--G~d~~f~ssL~sY~dfk~i~~~~~~ld-~----~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik  152 (216)
+                      +....  +.....+.++++|+.++++++... +. .    ..+.+.+|+|+++|+.++|++.+.++|.+.   +++++++
+T Consensus       335 ~~~~~~~~~~~~~~~~l~~~~~~~~~l~~~~-~~~~~~~~~~~~~~~d~i~~~lt~~~d~~~l~~~L~~~---l~~e~~~  410 (1083)
+T 6KC8_A          335 GLRYGKDNAEASTLMEMKAYHAISRALEKEG-LKDKKSPLNLSPELQDEIGTAFSLFKTDEDITGRLKDR---IQPEILE  410 (1083)
+T ss_dssp             TCCCSSSCGGGSEEECCHHHHHHHHHHHHTT-SSCSSSCCCCCHHHHHHHHHHHHHCCSHHHHHHHHTTT---SCHHHHH
+T ss_pred             eeccCCCchhhhhhhhhHHHHHHHHHHHHcC-CcCCCCccCCCHHHHHHHHHHHhcCCChHHHHHHHHHc---CCHHHHH
+Confidence            32111  111113457888999988776321 11 0    124567799999999999998888888643   3444454
+
+
+Q REC3_SpCas9_52  153 QLKR-RRYTGWGRLSRKLINGIRDKQS-GKTILDFLKSDGFANRN  195 (216)
+Q Consensus       153 ~l~~-l~y~GWGRLSkklL~gi~~~~~-g~~i~~il~~~~~tn~N  195 (216)
+                      .+.. ..++|||+||++||++|+|.|. |..|.+|+...++.+.+
+T Consensus       411 ~l~~~~~~~g~~~lS~kal~~ilp~l~~g~~y~~a~~~~~~~~~~  455 (1083)
+T 6KC8_A          411 ALLKHISFDKFVQISLKALRRIVPLMEQGKRYDEACAEIYGDHYG  455 (1083)
+T ss_dssp             HHHTTCCCCCBCSSCHHHHHHHHHHHHTTCCHHHHHHHHHSSSSC
+T ss_pred             HHHhcCCccccHHHHHHHHHHHHHHHHcCCchHHHHHHHhhcccc
+Confidence            5544 6789999999999999999976 99999999877655543
+
+
+No 8
+>6JE4_K CRISPR-associated endonuclease Cas9, AcrIIC3/DNA/RNA Complex; CRISPR-Cas9, NmeCas9, Nme1Cas9, AcrIIC3, anti-CRISPR; HET: EDO, PEG; 3.069A {Neisseria meningitidis 8013}
+Probab=99.57  E-value=9.6e-19  Score=181.19  Aligned_cols=188  Identities=16%  Similarity=0.227  Sum_probs=139.4  Template_Neff=7.500
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIE-CFD   79 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~-~~~   79 (216)
+                      +|||+|+|+||||+||+||+|++||+||||||.+.+.  .++||.++++.|++.++. ++++||++|++.|..... .|.
+T Consensus       258 ~Ct~~~~e~Rapk~s~~~q~f~il~~Lnnlri~~~~~--~~~Lt~eek~~i~~~~~~-k~~~t~~~i~k~L~~~~~~~f~  334 (1083)
+T 6JE4_K          258 HCTFEPAEPKAAKNTYTAERFIWLTKLNNLRILEQGS--ERPLTDTERATLMDEPYR-KSKLTYAQARKLLGLEDTAFFK  334 (1083)
+T ss_dssp             BCSSCTTSBEEESSSHHHHHHHHHHHHHTCEEESSSC--EEECCHHHHHHHHTHHHH-SSCCCHHHHHHHHTCCTTCEET
+T ss_pred             cCcCCCCCCCcccCCHHHHHHHHHHHHhCeEEcCCCC--cccCCHHHHHHHhhHHhh-cCCCCHHHHHHHcCCCCcceee
+Confidence            5999999999999999999999999999999987632  257999999999998876 558999999986554322 243
+
+
+Q REC3_SpCas9_52   80 SVEIS--GVEDRFNASLGTYHDLLKIIKDKDFLD-N----EENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMK  152 (216)
+Q Consensus        80 ~~~it--G~d~~f~ssL~sY~dfk~i~~~~~~ld-~----~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik  152 (216)
+                      +....  +.....+.++++|+.+.++++... +. .    ..+.+.+|+|+++|+.++|++.+.++|.+.   +++++++
+T Consensus       335 ~~~~~~~~~~~~~~~~l~~~~~~~~~l~~~~-~~~~~~~~~~~~~~~d~i~~~lt~~~d~~~l~~~L~~~---l~~e~~~  410 (1083)
+T 6JE4_K          335 GLRYGKDNAEASTLMEMKAYHAISRALEKEG-LKDKKSPLNLSPELQDEIGTAFSLFKTDEDITGRLKDR---IQPEILE  410 (1083)
+T ss_dssp             TCCTTSSSCTTSCSCCCHHHHHHHHHHHHTT-SCCSSSCCCSCHHHHHHHHHHHHHCCSHHHHHHHHTTT---SCHHHHH
+T ss_pred             eeccCCCchhhhhhhhhHHHHHHHHHHHHcC-CcCCCCccCCCHHHHHHHHHHHhcCCChHHHHHHHHHc---CCHHHHH
+Confidence            32111  111113457888999988776321 11 0    024567899999999999999888888653   3444454
+
+
+Q REC3_SpCas9_52  153 QLKR-RRYTGWGRLSRKLINGIRDKQS-GKTILDFLKSDGFANRN  195 (216)
+Q Consensus       153 ~l~~-l~y~GWGRLSkklL~gi~~~~~-g~~i~~il~~~~~tn~N  195 (216)
+                      .+.. ..++|||+||.+||++|+|.|. |..|.+|+...++.+.+
+T Consensus       411 ~l~~~~~~~g~~~lS~kal~~ilp~l~~g~~y~~a~~~~~~~~~~  455 (1083)
+T 6JE4_K          411 ALLKHISFDKFVQISLKALRRIVPLMEQGKRYDEACAEIYGDHYG  455 (1083)
+T ss_dssp             HHHHHCCCCCEEEEEHHHHHHHHHHHHTTCCHHHHHHHHSCC---
+T ss_pred             HHHhcCCccccHHHHHHHHHHHHHHHHcCCCHHHHHHHHhhcccc
+Confidence            5544 6789999999999999999976 99999999877655544
+
+
+No 9
+>5X2G_A CRISPR-associated endonuclease Cas9/RNA/DNA Complex; CRISPR-Cas9, RNA, DNA, Complex, Nuclease; 2.4A {Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168)}
+Probab=99.55  E-value=1.9e-18  Score=175.11  Aligned_cols=178  Identities=19%  Similarity=0.244  Sum_probs=138.2  Template_Neff=7.200
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYF----TVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIE   76 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f----~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~   76 (216)
+                      +|||+|+|+||||+||+||+|    +++|+|||+++.+.     .+||.++++.|++.+++ ++++|+++|++.|.....
+T Consensus       251 kCtfe~~ekRapKssp~~q~F~~l~ri~n~lnnl~i~~~-----~~Lt~eek~~i~~~l~~-k~~~t~k~irk~L~l~~~  324 (835)
+T 5X2G_A          251 NCSFFTDEKRAPKNSPLAFMFVALTRIINLLNNLKNTEG-----ILYTKDDLNALLNEVLK-NGTLTYKQTKKLLGLSDD  324 (835)
+T ss_dssp             BCSSCTTSBCCBTTSHHHHHHHHHHHHHHHHHHHHHHTC-----CCCCHHHHHHHHHHHHH-HTEEEHHHHHHTTSCSCC
+T ss_pred             cCccCCCCCccCcCCHHHHHHHHHHHHHHHHhcccCCCC-----CCCCHHHHHHHHHHHHH-cCCCCHHHHHHHcCCCCc
+Confidence            699999999999999999999    78899999996542     37999999999999887 568999999986554321
+
+
+Q REC3_SpCas9_52   77 CFDSVEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKR  156 (216)
+Q Consensus        77 ~~~~~~itG~d~~f~ssL~sY~dfk~i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik~l~~  156 (216)
+                          ..+.|.....++.+++|+.|.++++...     ...+.+|+|+++|+.++|++.+.++|.++  .+++++++.+..
+T Consensus       325 ----~~f~g~~~~~~~~l~~~~~~~k~~~~~~-----~~~~~ld~I~~~lt~~~d~~~l~~~L~~~--~l~~e~i~~l~~  393 (835)
+T 5X2G_A          325 ----YEFKGEKGTYFIEFKKYKEFIKALGEHN-----LSQDDLNEIAKDITLIKDEIKLKKALAKY--DLNQNQIDSLSK  393 (835)
+T ss_dssp             ----CSCCSSEEEECHHHHHHHHHC-------------CHHHHHHHHHHHHHCCCHHHHHHHHHTS--SCCHHHHHHHHT
+T ss_pred             ----ccccCCCcccchhcccHHHHHHHHhhCC-----CCHHHHHHHHHHHhcCCCHHHHHHHHHcC--CCCHHHHHHhcC
+Confidence                2233333335678899999987665321     23456799999999999999998888654  356666777777
+
+
+Q REC3_SpCas9_52  157 RRYTGWGRLSRKLINGIRDKQS-GKTILDFLKSDGFANRN  195 (216)
+Q Consensus       157 l~y~GWGRLSkklL~gi~~~~~-g~~i~~il~~~~~tn~N  195 (216)
+                      ..++|||+||.|||++|+|.|. |.+|.+||..+|+.+..
+T Consensus       394 l~~~~~~~lS~KAl~kIlp~l~~g~~y~eA~~~~g~~~~~  433 (835)
+T 5X2G_A          394 LEFKDHLNISFKALKLVTPLMLEGKKYDEACNELNLKVAI  433 (835)
+T ss_dssp             CCCCCBCSSCHHHHHHHHHHHHTTCCHHHHHHHHTCCCCC
+T ss_pred             CCCCCcchHhHHHHHHHHHHHHCCCcHHHHHHHCCccccc
+Confidence            7889999999999999999976 99999999988776654
+
+
+No 10
+>5X2H_A CRISPR-associated endonuclease Cas9/RNA/DNA Complex; CRISPR-Cas9, RNA, DNA, Complex, Nuclease; 2.3A {Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168)}
+Probab=99.55  E-value=1.9e-18  Score=175.11  Aligned_cols=178  Identities=19%  Similarity=0.244  Sum_probs=138.2  Template_Neff=7.200
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYF----TVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQLKEDYFKKIE   76 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f----~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~i~~~l~~~~~   76 (216)
+                      +|||+|+|+||||+||+||+|    +++|+|||+++.+.     .+||.++++.|++.+++ ++++|+++|++.|.....
+T Consensus       251 kCtfe~~ekRapKssp~~q~F~~l~ri~n~lnnl~i~~~-----~~Lt~eek~~i~~~l~~-k~~~t~k~irk~L~l~~~  324 (835)
+T 5X2H_A          251 NCSFFTDEKRAPKNSPLAFMFVALTRIINLLNNLKNTEG-----ILYTKDDLNALLNEVLK-NGTLTYKQTKKLLGLSDD  324 (835)
+T ss_dssp             BCSSCTTSBCCBTTSHHHHHHHHHHHHHHHHHHHHHHHC-----CCCCHHHHHHHHHHHHH-HSEEEHHHHHHHTSSCCC
+T ss_pred             cCccCCCCCccCcCCHHHHHHHHHHHHHHHHhcccCCCC-----CCCCHHHHHHHHHHHHH-cCCCCHHHHHHHcCCCCc
+Confidence            699999999999999999999    78899999996542     37999999999999887 568999999986554321
+
+
+Q REC3_SpCas9_52   77 CFDSVEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAHLFDDKVMKQLKR  156 (216)
+Q Consensus        77 ~~~~~~itG~d~~f~ssL~sY~dfk~i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~~klk~~~~~l~~~qik~l~~  156 (216)
+                          ..+.|.....++.+++|+.|.++++...     ...+.+|+|+++|+.++|++.+.++|.++  .+++++++.+..
+T Consensus       325 ----~~f~g~~~~~~~~l~~~~~~~k~~~~~~-----~~~~~ld~I~~~lt~~~d~~~l~~~L~~~--~l~~e~i~~l~~  393 (835)
+T 5X2H_A          325 ----YEFKGEKGTYFIEFKKYKEFIKALGEHN-----LSQDDLNEIAKDITLIKDEIKLKKALAKY--DLNQNQIDSLSK  393 (835)
+T ss_dssp             ----SSCCSSEEEECHHHHHHHHHC-------------CHHHHHHHHHHHHHCCCHHHHHHHHHTS--SCCHHHHHHHTT
+T ss_pred             ----ccccCCCcccchhcccHHHHHHHHhhCC-----CCHHHHHHHHHHHhcCCCHHHHHHHHHcC--CCCHHHHHHhcC
+Confidence                2233333335678899999987665321     23456799999999999999998888654  356666777777
+
+
+Q REC3_SpCas9_52  157 RRYTGWGRLSRKLINGIRDKQS-GKTILDFLKSDGFANRN  195 (216)
+Q Consensus       157 l~y~GWGRLSkklL~gi~~~~~-g~~i~~il~~~~~tn~N  195 (216)
+                      ..++|||+||.|||++|+|.|. |.+|.+||..+|+.+..
+T Consensus       394 l~~~~~~~lS~KAl~kIlp~l~~g~~y~eA~~~~g~~~~~  433 (835)
+T 5X2H_A          394 LEFKDHLNISFKALKLVTPLMLEGKKYDEACNELNLKVAI  433 (835)
+T ss_dssp             CCCCCBCSSCHHHHHHHHHHHHTTCCHHHHHHHHTCCCCC
+T ss_pred             CCCCCcchHhHHHHHHHHHHHHCCCcHHHHHHHCCccccc
+Confidence            7889999999999999999976 99999999988776654
+
+
+No 11
+>6RJA_C AcrIIA6, CRISPR-associated endonuclease Cas9/RNA Complex; CRISPR-Cas9, anti-CRISPR protein, bacteriophages, Streptococcus; 3.0A {Streptococcus phage D1811}
+Probab=99.50  E-value=9.5e-18  Score=174.51  Aligned_cols=170  Identities=20%  Similarity=0.249  Sum_probs=114.4  Template_Neff=7.300
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQ----LKEDYFKKIE   76 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~----i~~~l~~~~~   76 (216)
+                      +|||+|+|+||||+||+||+|++||+||||||.+.    .++||.++|+.|++.+++ ++++|++.    |++.+.....
+T Consensus       258 kCt~~~~e~rapk~s~~~q~F~ll~~Lnnlri~~~----~~~Lt~eek~~i~~~l~~-~~~~~~~~~~k~l~k~l~~~~~  332 (1121)
+T 6RJA_C          258 KCTFYPDEFRAAKASYTAQEFNLLNDLNNLTVPTE----TKKLSKEQKNQIINYVKN-EKAMGPAKLFKYIAKLLSCDVA  332 (1121)
+T ss_dssp             BCSSSTTSBEEETTSHHHHHHHHHHHHCC--------------CHHHHHHHHHHHHH-CCSCCHHHHHHHHHHHTTSCSC
+T ss_pred             cCCCCCCCCcccccCHHHHHHHHHHHHhccccCCC----CCCCCHHHHHHHHHHHHh-cCCCCHHHHHHHHHHHcCCCHh
+Confidence            59999999999999999999999999999999864    247999999999999876 55555554    7764443222
+
+
+Q REC3_SpCas9_52   77 CFDSVEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAH--LFDDKVMKQL  154 (216)
+Q Consensus        77 ~~~~~~itG~d~~f~ssL~sY~dfk~i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~~klk~~~~--~l~~~qik~l  154 (216)
+                      .|.+..+.......++++++|+.++.+.+ . .|+. .+.+.+|+|+++++.+++++++.++|.+.+.  .+++++++.+
+T Consensus       333 ~~~g~~~~~~~~~~~~~~~~~~~l~~~~~-~-~~~~-~~~~~~d~i~~~lt~~~d~~~~~~~L~~~~~~~~l~~~~i~~l  409 (1121)
+T 6RJA_C          333 DIKGYRIDKSGKAEIHTFEAYRKMKTLET-L-DIEQ-MDRETLDKLAYVLTLNTEREGIQEALEHEFADGSFSQKQVDEL  409 (1121)
+T ss_dssp             SCCSCBCCSSCCCBCCCCHHHHHTTSCSS-C-CSTT-SCSHHHHHHHHHHHHCCSHHHHHHHHHHTSTTCCCCHHHHHHH
+T ss_pred             hccceeeCCCCCeeecCcHHHHHHHHHcc-C-Cccc-CCHHHHHHHHHHHhhcCCHHHHHHHHHHHcCCCCCCHHHHHHH
+Confidence            23222111001114678899999875533 1 1332 2556679999999999999999888864331  3455555554
+
+
+Q REC3_SpCas9_52  155 KRR------RY-TGWGRLSRKLINGIRDKQS  178 (216)
+Q Consensus       155 ~~l------~y-~GWGRLSkklL~gi~~~~~  178 (216)
+                      ...      .+ +|||+||.+||+.|+|.|.
+T Consensus       410 ~~~~~~~~~~~~~~~~~lS~kal~~ilp~m~  440 (1121)
+T 6RJA_C          410 VQFRKANSSIFGKGWHNFSVKLMMELIPELY  440 (1121)
+T ss_dssp             HHHHHHCSTTTTSCEEEEEHHHHHHHTTHHH
+T ss_pred             HHHHHhcCcccCCCcchhcHHHHHHHHHHHH
+Confidence            322      33 9999999999999999975
+
+
+No 12
+>6RJ9_C AcrIIA6, CRISPR-associated endonuclease Cas9/RNA Complex; CRISPR-Cas9, anti-CRISPR protein, bacteriophages, Streptococcus; 3.2A {Streptococcus phage D1811}
+Probab=99.47  E-value=2.1e-17  Score=172.01  Aligned_cols=170  Identities=20%  Similarity=0.231  Sum_probs=121.3  Template_Neff=7.400
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKTNRKVTVKQ----LKEDYFKKIE   76 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~~kkVt~K~----i~~~l~~~~~   76 (216)
+                      +|||+|+|+||||+||+||+|++||+||||||...    .++||.++++.|++.+++ ++++|++.    |++.+.....
+T Consensus       258 kCt~~~~e~rapk~s~~~q~F~ll~~LnNlri~~~----~~~Lt~eek~~i~~~l~~-~~~~t~~~~~k~l~k~l~~~~~  332 (1121)
+T 6RJ9_C          258 KCTFYPDEFRAAKASYTAQEFNLLNDLNNLTVPTE----TKKLSKEQKNQIINYVKN-EKAMGPAKLFKYIAKLLSCDVA  332 (1121)
+T ss_pred             cCCCCCCCCcCcccCHHHHHHHHHHHHhCcEecCC----CCCCCHHHHHHHHHHHHh-CCCCCHHHHHHHHHHHcCCCHH
+Confidence            59999999999999999999999999999999864    247999999999999876 55555544    7764443222
+
+
+Q REC3_SpCas9_52   77 CFDSVEISGVEDRFNASLGTYHDLLKIIKDKDFLDNEENEDILEDIVLTLTLFEDREMIEERLKTYAH--LFDDKVMKQL  154 (216)
+Q Consensus        77 ~~~~~~itG~d~~f~ssL~sY~dfk~i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~~klk~~~~--~l~~~qik~l  154 (216)
+                      .|.+..+.......++++++|+.++.+.+ . .|+. .+.+.+|+|+++++.+++++.+.++|.+.+.  .+++++++.+
+T Consensus       333 ~~~g~~~~~~~~~~~~~~~~~~~l~~~~~-~-~~~~-~~~~~~d~i~~~lt~~~~~~~~~~~L~~~~~~~~l~~~~i~~l  409 (1121)
+T 6RJ9_C          333 DIKGYRIDKSGKAEIHTFEAYRKMKTLET-L-DIEQ-MDRETLDKLAYVLTLNTEREGIQEALEHEFADGSFSQKQVDEL  409 (1121)
+T ss_pred             HhCcccCCCCCCcchhcCHHHHHHHHHhC-C-Chhh-CCHHHHHHHHHHHhhCCCHHHHHHHHHhhCCCCCCCHHHHHHH
+Confidence            23222111001114678889998875433 1 1322 2455679999999999999999888864331  3455555554
+
+
+Q REC3_SpCas9_52  155 KRR------R-YTGWGRLSRKLINGIRDKQS  178 (216)
+Q Consensus       155 ~~l------~-y~GWGRLSkklL~gi~~~~~  178 (216)
+                      ...      . ++|||+||.+||+.|+|.|.
+T Consensus       410 ~~~~~~~~~~~~~~~~~lS~kal~~ilp~m~  440 (1121)
+T 6RJ9_C          410 VQFRKANSSIFGKGWHNFSVKLMMELIPELY  440 (1121)
+T ss_pred             HHHHcCCCCCCCCCcccccHHHHHHHHHHHH
+Confidence            322      3 39999999999999999975
+
+
+No 13
+>6JOO_A CRISPR-associated protein,CdCas9/RNA Complex; CRISPR-Cas, Cas9, PAM, DNA endonuclease; HET: MSE; 2.9A {Corynebacterium diphtheriae}
+Probab=99.27  E-value=2.7e-15  Score=154.08  Aligned_cols=189  Identities=14%  Similarity=0.125  Sum_probs=128.4  Template_Neff=6.500
+
+Q REC3_SpCas9_52    1 FDKNLPNEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKT--NRKVTVKQLKEDYFKKIE-C   77 (216)
+Q Consensus         1 ~d~yL~~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~--~kkVt~K~i~~~l~~~~~-~   77 (216)
+                      +|+|+|+|+||||+||+||+|++||+||||||...+  +.++||.++++.|++.+++.  ++++||++|++.|..... .
+T Consensus       250 kCt~~p~E~RApKasps~Q~FriL~~LnNLrI~~~~--~~r~Lt~eek~~I~~~L~~~~~k~~vT~k~i~k~L~l~~~~~  327 (927)
+T 6JOO_A          250 KDPLQPGKNRALKASDAFQRYRIAALIGNLRVRVDG--EKRILSVEEKNLVFDHLVNLTPKKEPEWVTIAEILGIDRGQL  327 (927)
+T ss_pred             cCcCCCCCCcccccCHHHHHHHHHHHHhCeEecCCC--CCCCCCHHHHHHHHHHHhcccccCCCCHHHHHHHcCCCHHHH
+Confidence            699999999999999999999999999999999863  23579999999999998763  236999999986654332 1
+
+
+Q REC3_SpCas9_52   78 FDSVEI--SGVED-RFNASLGTYHDLLK----IIKDKDFLDNEENEDILEDIVLTLTLFEDREMIE---ERLKTYAHLFD  147 (216)
+Q Consensus        78 ~~~~~i--tG~d~-~f~ssL~sY~dfk~----i~~~~~~ld~~~~~~~iE~II~w~TifeDk~il~---~klk~~~~~l~  147 (216)
+                      +.....  .|... ...+.++++..+..    .++.|  |+. .+.+..++|+++|+.+++++...   +.+.++...++
+T Consensus       328 ~g~~~~~~~~~~~~~~~~~~~t~~~l~~~~~k~l~~~--W~~-~~~~~~~~ii~~Lt~~~d~e~~~~~~~~L~~~~~~L~  404 (927)
+T 6JOO_A          328 IGTATMTDDGERAGARPPTHDTNRSIVNSRIAPLVDW--WKT-ASALEQHAMVKALSNAEVDDFDSPEGAKVQAFFADLD  404 (927)
+T ss_pred             ccccccCCCCCccccCCCCCHHHHHHHHchhhhccch--hhh-CCHHHHHHHHHHHhcCCChhHHHHHHHHHHHHHCCCC
+Confidence            111111  11111 12344555555541    23332  221 23345689999999998765432   44554432355
+
+
+Q REC3_SpCas9_52  148 DKVMKQLKRR-RYTGWGRLSRKLINGIRDKQS-G--KTILDFLKSDGFANR  194 (216)
+Q Consensus       148 ~~qik~l~~l-~y~GWGRLSkklL~gi~~~~~-g--~~i~~il~~~~~tn~  194 (216)
+                      +++++.+... .++|||+||.+||++|+|.|. |  ..|.+++...|+.+.
+T Consensus       405 ~e~i~~L~~l~lpsg~~slSlKAl~kIlp~M~~g~~~~y~ea~~~~g~~~~  455 (927)
+T 6JOO_A          405 DDVHAKLDSLHLPVGRAAYSEDTLVRLTRRMLSDGVDLYTARLQEFGIEPS  455 (927)
+T ss_pred             HHHHHHHhcCCCCCCcchhcHHHHHHHHHHHHhcCCChHHHHHHHcCCCcC
+Confidence            5556666554 459999999999999999976 3  456667777655443
+
+
+No 14
+>4OGE_A HNH endonuclease domain protein; CRISPR-Cas, Cas9, HNH, RuvC, RNA-guided; HET: SPD; 2.201A {Actinomyces naeslundii}
+Probab=99.12  E-value=5.6e-14  Score=146.68  Aligned_cols=176  Identities=13%  Similarity=0.149  Sum_probs=113.7  Template_Neff=6.600
+
+Q REC3_SpCas9_52    7 NEKVLPKHSLLYEYFTVYNELTKVKYVTEGMRKPAFLSGEQKKAIVDLLFKT-NRKVTVKQLKEDYFKKIECFDSVEI--   83 (216)
+Q Consensus         7 ~E~VLPK~SLLYq~f~VLNELNniri~~~g~~~~~~l~~~~Kq~I~~~lFk~-~kkVt~K~i~~~l~~~~~~~~~~~i--   83 (216)
+                      +++||||+||+||+|++||+||||||.+.++ +.++||.++++.|++.+++. ++++||++|++.|......+.+..+  
+T Consensus       269 ~~kRApKaspsfQ~Fril~~LnNLrI~~~~~-~~r~Lt~eek~~Ii~~L~~~~k~~vt~k~I~K~L~l~~~~~~g~~~~~  347 (1101)
+T 4OGE_A          269 SFRRAPKCDPEFQRFRIISIVANLRISETKG-ENRPLTADERRHVVTFLTEDSQADLTWVDVAEKLGVHRRDLRGTAVHT  347 (1101)
+T ss_dssp             TSBEEETTSHHHHHHHHHHHHHTCEEESSTT-CEEECCHHHHHHHHHHHHHCTTCCCCHHHHHHHHTSCGGGEECTTCCC
+T ss_pred             CCCcccccCHHHHHHHHHHHHhCeEEecCCC-CCccCCHHHHHHHHHHHHhcCccCCCHHHHHHHhCCCHHHhCCCcccC
+Confidence            6799999999999999999999999998632 33589999999999998763 2379999999866543322211111  
+
+
+Q REC3_SpCas9_52   84 -SGVED-RFNASLGTYHDLL----KIIKDKDFLDNEENEDILEDIVLTLTLFED--REMIEERLKTYAHLFDDKVMKQLK  155 (216)
+Q Consensus        84 -tG~d~-~f~ssL~sY~dfk----~i~~~~~~ld~~~~~~~iE~II~w~TifeD--k~il~~klk~~~~~l~~~qik~l~  155 (216)
+                       .|... .+.+.+.++..++    +.++.|  |..... +  ++++.+.+.+.+  .+++.+.+.    .+++++++.+.
+T Consensus       348 ~~g~~~~~~~~~~~t~~~~~~~~~~~l~~~--w~~~~~-~--~~~~~i~~l~~~~~~~~i~~~l~----~l~~e~~~~L~  418 (1101)
+T 4OGE_A          348 DDGERSAARPPIDATDRIMRQTKISSLKTW--WEEADS-E--QRGAMIRYLYEDPTDSECAEIIA----ELPEEDQAKLD  418 (1101)
+T ss_dssp             ----CCCSSCCCCHHHHHHHHCSCHHHHHH--HHTCCS-H--HHHHHHHHHHTCCCCSHHHHTTT----SSTTTTTHHHH
+T ss_pred             CCCccccCCCCCcHHHHHHHHhccchhhhh--HhhCCH-H--HHHHHHHHHhcCCChHHHHHHHH----hCCHHHHHHHh
+Confidence             22211 1334455554443    234433  211111 1  123344444444  455555554    24555555665
+
+
+Q REC3_SpCas9_52  156 RRR-YTGWGRLSRKLINGIRDKQS--GKTILDFLKSD-GFA  192 (216)
+Q Consensus       156 ~l~-y~GWGRLSkklL~gi~~~~~--g~~i~~il~~~-~~t  192 (216)
+                      ... ++|||+||.+||++|+|.|.  |..+++|+... |+.
+T Consensus       419 ~l~~~~g~~~lS~Kal~~iip~m~~~~~~~~ea~~~~~g~~  459 (1101)
+T 4OGE_A          419 SLHLPAGRAAYSRESLTALSDHMLATTDDLHEARKRLFGVD  459 (1101)
+T ss_dssp             TCCCCCCEEEEEHHHHHHHHHHHHHSSCCHHHHHHHHHCCC
+T ss_pred             cCCCCCCchhhcHHHHHHHHHHHHhcCCcHHHHHHHHhCCC
+Confidence            554 49999999999999999975  68899998866 444
+
+
